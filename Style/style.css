@@ -1,0 +1,155 @@
+
+.padding-right-navbar {
+  padding-right: 15rem;
+}
+
+.bg-color {
+  background-color: #454546;
+}
+
+.imagenBsAs {
+  filter: brightness(40%);
+  
+}
+
+.inicio{
+  top: 15rem;
+  right: 10%;
+  color: white;
+  text-align: right;
+}
+
+button {
+  border-radius: 1px;
+  gap: 1rem;
+}
+
+.especialidades{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.js{
+  border-radius: 5px;
+  padding:2px 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.react{
+  border-radius: 5px;
+  padding:2px 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.negocios{
+  border-radius: 5px;
+  padding:2px 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color:white
+}
+
+.startups{
+  border-radius: 5px;
+  padding:2px 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.boton{
+  background-color: #96c93e;
+  border-color: #96c93e;
+  color: white;
+  width: 50%;
+  margin: 0 25%;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.inputNombre{
+  width: 22%;
+  margin-left: 25%;
+  gap: 1rem;
+  border-color: rgb(233, 233, 233);
+  border-radius: 3px;
+  text-align: start;
+  margin-top: 1rem;
+}
+
+.inputApellido{
+  width: 22%;
+  margin-left: 6%;
+  gap: 1rem;
+  border-color: rgb(233, 233, 233);
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+.textarea{
+  margin-top: 1rem;
+  height: 5%;
+  margin-left: 25%;
+  border-color: rgb(233, 233, 233);
+  border-radius: 3px;
+  height: 95px;
+}
+
+.footer{
+  align-items: center;
+  gap: 5rem;
+  font-size: 14px;
+}
+
+.background-darkblue{
+  background-color: rgb(28, 61, 78);
+}
+
+/* 
+.skills-orador{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.orange-skill{
+  color: black;
+  background-color: orange;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.lightblue-skill{
+  color: white;
+  background-color: lightseagreen;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.grey-skill{
+color: white;
+background-color: gray;
+padding: 2px 5px;
+border-radius: 5px;
+}
+
+.red-skill{
+color: white;
+background-color: red;
+padding: 2px 5px;
+border-radius: 5px;
+} */
+.tarjetas{
+  display: flex;
+}
+
+@media(max-width: 768px) {
+.tarjetas{
+  display: block;
+  ;
+}
+}
