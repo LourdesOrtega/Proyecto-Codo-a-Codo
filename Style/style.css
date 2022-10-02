@@ -1,6 +1,7 @@
-
-.padding-right-navbar {
-  padding-right: 15rem;
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
 
 .bg-color {
@@ -9,10 +10,9 @@
 
 .imagenBsAs {
   filter: brightness(40%);
-  
 }
 
-.inicio{
+.inicio {
   top: 15rem;
   right: 10%;
   color: white;
@@ -24,55 +24,45 @@ button {
   gap: 1rem;
 }
 
-.especialidades{
+.especialidades {
   display: flex;
   gap: 0.5rem;
 }
 
-.js{
+.js {
   border-radius: 5px;
-  padding:2px 5px;
+  padding: 2px 5px;
   font-weight: bold;
   font-size: 14px;
-}
-.react{
-  border-radius: 5px;
-  padding:2px 5px;
-  font-weight: bold;
-  font-size: 14px;
-  color: white;
-  margin-bottom: 7px;
 }
 
-.negocios{
+.react {
   border-radius: 5px;
-  padding:2px 5px;
-  font-weight: bold;
-  font-size: 14px;
-  color:white
-}
-
-.startups{
-  border-radius: 5px;
-  padding:2px 5px;
+  padding: 2px 5px;
   font-weight: bold;
   font-size: 14px;
   color: white;
   margin-bottom: 7px;
 }
 
-.boton{
-  background-color: #96c93e;
-  border-color: #96c93e;
+.negocios {
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-weight: bold;
+  font-size: 14px;
   color: white;
-  width: 50%;
-  margin: 0 25%;
-  margin-bottom: 1rem;
-  border-radius: 4px;
-  padding: 5px;
 }
 
-.inputNombre{
+.startups {
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.inputNombre {
   width: 22%;
   margin-left: 25%;
   gap: 1rem;
@@ -82,7 +72,7 @@ button {
   margin-top: 1rem;
 }
 
-.inputApellido{
+.inputApellido {
   width: 22%;
   margin-left: 6%;
   gap: 1rem;
@@ -91,7 +81,7 @@ button {
   margin-top: 1rem;
 }
 
-.textarea{
+.textarea {
   margin-top: 1rem;
   height: 5%;
   margin-left: 25%;
@@ -100,56 +90,172 @@ button {
   height: 95px;
 }
 
-.footer{
+.footer {
   align-items: center;
   gap: 5rem;
   font-size: 14px;
 }
 
-.background-darkblue{
+.background-darkblue {
   background-color: rgb(28, 61, 78);
 }
 
-/* 
-.skills-orador{
-  display: flex;
-  gap: 0.5rem;
-}
-
-.orange-skill{
-  color: black;
-  background-color: orange;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
-
-.lightblue-skill{
+.boton{
+  background-color: #96c93e;
+  border-color: #96c93e;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  padding: 5px;
   color: white;
-  background-color: lightseagreen;
-  padding: 2px 5px;
-  border-radius: 5px;
 }
 
-.grey-skill{
-color: white;
-background-color: gray;
-padding: 2px 5px;
-border-radius: 5px;
+
+/* desktop */
+@media (min-width: 960px) {
+
+  .padding-right-navbar {
+    padding-right: 15rem;
+  }
+
+  .imagenBsAs {
+    width: 100%;
+  }
+
+  .inicio{
+    width: 37rem;
+  }
+
+  .margin-navbar{
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .tarjetas {
+    display: flex;
+  }
+
+  .gap-input {
+    gap: 2rem;
+  }
+
+  .contenedor-img-texto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+  }
+
+  .formulario-hablador{
+    width: 50%;
+  }
+
+  .navbar-collapse{
+    flex-grow: 0;
+  }
+
+  .contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.red-skill{
-color: white;
-background-color: red;
-padding: 2px 5px;
-border-radius: 5px;
-} */
-.tarjetas{
-  display: flex;
+/* tablet */
+@media (min-width: 480px) and (max-width: 960px) {
+
+  .tarjetas{
+    display: flex;
+    margin: 0 1rem;
+  }
+
+  .imagen-honolulu{
+    width: 100% !important;
+  }
+
+  .contenedor-texto{
+    margin-bottom: 5rem;
+  }
+
+  .contenedor-texto h5{
+    font-size: 2rem;
+  }
+
+  .contenedor-texto p{
+    font-size: 1rem;
+  }
+
+  .contenedor-texto button{
+    font-size: 1rem;
+  }
+
+  .footer {
+    gap: 1rem;
+  }
+
+  .contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .gap-input {
+    gap: 0.5rem;
+  }
+
+  .inicio{
+    top: 9rem;
+  }
+
+  .honolulu-texto{
+    width: 100% !important;
+    margin: 0;
+  }
 }
 
-@media(max-width: 768px) {
-.tarjetas{
-  display: block;
-  ;
-}
+/* mobile */
+@media (max-width: 480px) {
+
+  .inicio {
+    top: 20%;
+    right: 3%;
+    font-size: 16px;
+    margin: 1rem;
+  }
+
+  .inicio button{
+    font-size: 14px;
+  }
+
+  .imagenBsAs {
+    height: 34rem;
+  }
+
+  .tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boton {
+    width: 100%;
+  }
+
+  .contenedor-formulario{
+    margin: 1rem;
+  }
+
+  .gap-input {
+    gap: 0.5rem;
+  }
+
+  .footer {
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .contenedor-img-texto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
