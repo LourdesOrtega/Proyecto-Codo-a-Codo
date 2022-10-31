@@ -92,7 +92,7 @@ button {
 
 .footer {
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
   font-size: 14px;
 }
 
@@ -100,19 +100,27 @@ button {
   background-color: rgb(28, 61, 78);
 }
 
-.boton{
-  background-color: #96c93e;
-  border-color: #96c93e;
+.boton {
+  background-color: rgba(151,201,62,255);
+  border-color: rgba(151,201,62,255);
   margin-bottom: 1rem;
   border-radius: 4px;
   padding: 5px;
   color: white;
 }
 
+.btn-comprar-ticket{
+  text-decoration: none;
+  color: white;
+}
+.btn-comprar-ticket:hover{
+  color: black;
+}
 
 /* desktop */
 @media (min-width: 960px) {
 
+  
   .padding-right-navbar {
     padding-right: 15rem;
   }
@@ -121,11 +129,11 @@ button {
     width: 100%;
   }
 
-  .inicio{
+  .inicio {
     width: 37rem;
   }
 
-  .margin-navbar{
+  .margin-navbar {
     margin-right: 2rem;
     margin-left: 2rem;
   }
@@ -138,53 +146,94 @@ button {
     gap: 2rem;
   }
 
-  .contenedor-img-texto{
+  .contenedor-img-texto {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap !important;
   }
 
-  .formulario-hablador{
+  .formulario-hablador {
     width: 50%;
   }
 
-  .navbar-collapse{
+  .navbar-collapse {
     flex-grow: 0;
   }
-
-  .contenedor-formulario{
+  .contenedor-formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  .contenedor-categorias {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    border-radius: 0.1rem;
+  }
+
+  .formulario-compra{
+    margin: 0 25% !important;
+  }
+/*   
+  .input-correo{
+    max-width: 53%;
+    margin-left:224px;
+  }
+  
+  .pagar{
+    background-color: #cce5ff;
+    height: 2rem;
+    text-align: left;
+    width: 53%;
+    align-items: center;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    margin-left: 286px;
+    margin-left: 224px;
+  } 
+  
+  .contenedor-botones{
+    gap: 2rem;
+    margin-left: -1rem;
+    justify-content: center;
+    width: 100%;
+  }
+  .botones-form{
+    background-color: rgba(151,201,62,255);
+    border-radius: rgba(151,201,62,255);
+    color: white;
+    
+  } */
 }
 
 /* tablet */
 @media (min-width: 480px) and (max-width: 960px) {
 
-  .tarjetas{
+  .tarjetas {
     display: flex;
     margin: 0 1rem;
   }
 
-  .imagen-honolulu{
+  .imagen-honolulu {
     width: 100% !important;
   }
 
-  .contenedor-texto{
+  .contenedor-texto {
     margin-bottom: 5rem;
   }
 
-  .contenedor-texto h5{
+  .contenedor-texto h5 {
     font-size: 2rem;
   }
 
-  .contenedor-texto p{
+  .contenedor-texto p {
     font-size: 1rem;
   }
 
-  .contenedor-texto button{
+  .contenedor-texto button {
     font-size: 1rem;
   }
 
@@ -192,7 +241,7 @@ button {
     gap: 1rem;
   }
 
-  .contenedor-formulario{
+  .contenedor-formulario {
     display: flex;
     flex-direction: column;
     margin: 2rem;
@@ -202,14 +251,15 @@ button {
     gap: 0.5rem;
   }
 
-  .inicio{
+  .inicio {
     top: 9rem;
   }
 
-  .honolulu-texto{
+  .honolulu-texto {
     width: 100% !important;
     margin: 0;
   }
+
 }
 
 /* mobile */
@@ -222,7 +272,7 @@ button {
     margin: 1rem;
   }
 
-  .inicio button{
+  .inicio button {
     font-size: 14px;
   }
 
@@ -230,7 +280,7 @@ button {
     height: 34rem;
   }
 
-  .tarjetas{
+  .tarjetas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,7 +290,7 @@ button {
     width: 100%;
   }
 
-  .contenedor-formulario{
+  .contenedor-formulario {
     margin: 1rem;
   }
 
@@ -253,9 +303,12 @@ button {
     gap: 1.5rem;
   }
 
-  .contenedor-img-texto{
+  .contenedor-img-texto {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
+
+/* stilos integrador js*/
+

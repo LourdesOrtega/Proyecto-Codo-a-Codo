@@ -10,43 +10,42 @@
   <title>Proyecto</title>
 </head>
 
-<header>
-
-  <nav class="navbar navbar-expand-lg bg-color">
-    <div class="container-fluid margin-navbar">
-      <a class="navbar-brand padding-right-navbar text-white" href="#">
-        <img src="./imagenes/codoacodo.png" alt="Logo Codo a Codo" width="auto" height="40"
-          class="d-inline-block align-text-top">
-        Conf Bs As
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page">La conferencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary">Los oradores</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary">El lugar y la fecha</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary">Conviértete en orador</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-success">Comprar tickets</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-color">
+      <div class="container-fluid margin-navbar">
+        <a class="navbar-brand padding-right-navbar text-white" href="#">
+          <img src="./imagenes/codoacodo.png" alt="Logo Codo a Codo" width="auto" height="40"
+            class="d-inline-block align-text-top">
+          Conf Bs As
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="./comprarTickets.html">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   <section>
     <div style="position: relative">
       <div class="contenedor-principal">
@@ -61,7 +60,7 @@
             evento, a otros estudiantes de Codo a Codo y los oradores de primer
             nivel que tenemos para ti. Te esperamos!</p>
           <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-          <button type="button" class="btn btn-success">Comprar tickets</button>
+          <button type="button" class="btn btn-success"><a href="./comprarTickets.html" class="btn-comprar-ticket">Comprar tickets</a></button>
         </div>
       </div>
     </div>
