@@ -86,33 +86,54 @@
         VALOR DE TICKET $200
       </h1>
     </div>
-    <form class="row g-3 formulario-compra">
-      <div class="col-md-6">
-        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
-      </div>
-      <div class="col-md-6  ">
-        <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
-      </div>
-      <div class="col-12">
-        <input type="email" class="form-control" id="inputCorreo" placeholder="Correo">
-      </div>
-      <div class="col-md-6">
-        <label for="inputCantidad" class="form-label">Cantidad</label>
-        <input type="text" class="form-control" id="inputCantidad" placeholder="Cantidad">
-      </div>
-      <div class="col-md-6">
-        <label for="inputCategoria" class="form-label">Categoria</label>
-        <select id="inputCategoria" class="form-select">
-          <option selected value="1">Estudiante</option>
-          <option value="2">Trainee</option>
-          <option value="3">Junior</option>
-        </select>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </div>
-    </form>
   </section> 
+  <form class="row g-3 formulario-compra">
+    <div class="inputs">
+      <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+    </div>
+    <div class="inputs">
+      <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+    </div>
+    <div class="input-correo">
+      <input type="email" class="form-control" id="inputCorreo" placeholder="Correo">
+    </div>
+    <div class="inputs">
+      <label for="inputCantidad" class="form-label" style="padding-left: 5px;">Cantidad</label>
+      <input type="text" class="form-control" id="inputCantidad" placeholder="Cantidad">
+    </div>
+    <div class="inputs">
+      <label for="inputCategoria" class="form-label" style="padding-left: 5px;">Categoria</label>
+      <select id="inputCategoria" class="form-select" style="max-width: 328px;">
+        <option selected value="1">Estudiante</option>
+        <option value="2">Trainee</option>
+        <option value="2">Junior</option>
+      </select>
+      
+    </div>
+    <div class="alert alert-primary mt-4" role="alert" style="margin-left: 1rem; max-width: 740px;">
+      Total a pagar: $
+    </div>
+    <div class="contenedor-botones mb-3">
+      <button type="reset" class="btn botones-form" style="margin-left: 2rem;">Borrar</button>
+      <button type="submit" class="btn botones-form" style="margin-left: 1rem;">Resumen</button>
+    </div>
+  </form>
+
+  <footer>
+    <nav class="navbar navbar-expand-lg background-darkblue mt-3">
+      <div class="container-fluid justify-content-evenly" style="padding: 0 8rem ;">
+        <div class="navbar-nav footer fs-5">
+          <a class="nav-link text-light" href="#">Preguntas <br>frecuentes</a>
+          <a class="nav-link text-light" href="#">Contáctanos</a>
+          <a class="nav-link text-light" href="#">Prensa</a>
+          <a class="nav-link text-light" href="#">Conferencias</a>
+          <a class="nav-link text-light" href="#">Términos y <br>condiciones</a>
+          <a class="nav-link text-light" href="#">Privacidad</a>
+          <a class="nav-link text-light" href="#">Estudiantes</a>
+        </div>
+      </div>
+    </nav>
+  </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
