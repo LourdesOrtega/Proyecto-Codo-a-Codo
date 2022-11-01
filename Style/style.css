@@ -232,7 +232,17 @@ button {
   }
 
   .footer {
-    gap: 1rem;
+    gap: -1rem;
+    display: flex;
+    direction: row;
+    max-width: 100%;
+    margin: 1.5rem;
+    align-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 18rem;
   }
 
   .contenedor-formulario {
@@ -280,10 +290,16 @@ button {
 /* mobile */
 @media (max-width: 480px) {
 
+
+  .pagar{
+    margin-left: 1rem;
+    max-width: 97%;
+  }
+
   .formulario-compra{
     display: flex;
     align-items: center;
-    max-width: 90%;
+    max-width: 86%;
     flex-wrap: wrap;
     margin: 1rem;
     align-content: center;
@@ -338,9 +354,9 @@ button {
     background-color: rgba(151,201,62,255);
     border-radius: rgba(151,201,62,255);
     color: white;
-    width: 116px;
+    width: 108px;
   column-gap: 2;
-
+margin-left: 1.5rem;
 
 }
 }
